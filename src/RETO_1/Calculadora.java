@@ -30,12 +30,12 @@ public class Calculadora {
 
     public void Division(float a, float b) {
         float div;
-        if (a != 0) {
+        if (b != 0) {
             div = a / b;
             System.out.println("La division es: " + div);
 
         } else {
-            resultado = "Dato invalido A";
+            resultado = "Dato invalido B";
             System.out.println(resultado);
         }
 
@@ -43,11 +43,11 @@ public class Calculadora {
 
     public void Mood(float a, float b) {
         float mod;
-        if (a != 0) {
+        if (b != 0) {
             mod = a % b;
             System.out.println("El resultado final es: " + mod);
         } else {
-            resultado = "Dato invalido A";
+            resultado = "Dato invalido B";
             System.out.println(resultado);
 
         }
